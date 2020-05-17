@@ -4,7 +4,7 @@
 
 ## 预览
 
-[![Agency 预览](https://wx1.sbimg.cn/2020/05/17/agency-2.png)](https://agency.heroui.net/)
+[![Agency 预览](https://agency.heroui.net/)](https://wx1.sbimg.cn/2020/05/17/agency-2.png)
 
 **[在线浏览](https://agency.heroui.net/)**
 
