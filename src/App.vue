@@ -8,7 +8,12 @@
       color="#f5f5f5"
     >
       <v-list nav color="#f5f5f5">
-        <v-list-item v-for="(item, i) in btnItems" :key="i" link>
+        <v-list-item
+          v-for="(item, i) in btnItems"
+          :key="i"
+          link
+          @click="$vuetify.goTo(`#${item}`)"
+        >
           <v-list-item-content>
             <v-list-item-title>{{ item }}</v-list-item-title>
           </v-list-item-content>
@@ -41,7 +46,12 @@
             </v-toolbar-title>
           </v-col>
           <v-col class="text-right" v-if="$vuetify.breakpoint.smAndUp">
-            <v-btn text v-for="(item, i) in btnItems" :key="i">
+            <v-btn
+              text
+              v-for="(item, i) in btnItems"
+              :key="i"
+              @click="$vuetify.goTo(`#${item}`)"
+            >
               {{ item }}
             </v-btn>
           </v-col>
@@ -78,7 +88,7 @@
       </v-sheet>
 
       <v-container>
-        <v-sheet color="transparent">
+        <v-sheet color="transparent" id="SERVICES">
           <div class="pt-12 text-center">
             <h3 class="display-1 font-weight-blod">
               SERVICES
@@ -112,7 +122,7 @@
         </v-sheet>
       </v-container>
 
-      <v-sheet>
+      <v-sheet id="PORTFOLIO">
         <v-container>
           <div class="pt-12 text-center">
             <h3 class="display-1 font-weight-blod">
@@ -145,7 +155,7 @@
         </v-container>
       </v-sheet>
 
-      <v-sheet color="transparent">
+      <v-sheet color="transparent" id="ABOUT">
         <v-container>
           <div class="pt-12 text-center">
             <h3 class="display-1 font-weight-blod">
@@ -184,7 +194,7 @@
         </v-container>
       </v-sheet>
 
-      <v-sheet>
+      <v-sheet id="TEAM">
         <v-container>
           <div class="pt-12 text-center">
             <h3 class="display-1 font-weight-blod">
@@ -246,7 +256,7 @@
         </v-container>
       </v-sheet>
 
-      <v-sheet dark>
+      <v-sheet dark id="CONTACT">
         <v-img
           src="https://static-map.tesla.com/v1/map?screen_type=desktop&map_type=world"
           gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
@@ -341,7 +351,7 @@ export default {
   data: () => ({
     dialog: false,
     drawer: null,
-    btnItems: ["Services", "Portfolio", "About", "Team", "Contact"],
+    btnItems: ["SERVICES", "PORTFOLIO", "ABOUT", "TEAM", "CONTACT"],
     services: [
       {
         icon: "mdi-store",
