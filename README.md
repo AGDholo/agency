@@ -20,7 +20,7 @@ Clone the source files of the theme and navigate into the theme's root directory
 - `yarn build` build all file to `dist`
 - `yarn lint` check code format
 
-## 错误和问题
+## Bug & Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/heroui/agency/issues).
 
