@@ -37,4 +37,4 @@ Agency based on the [Vuetify](https://vuetifyjs.com/) framework created by [Pika
 
 ## Copyright and License
 
-Copyright 2020 HeroUI LLC. Code released under the [MIT](https://github.com/heroui/agency/blob/gh-pages/LICENSE) license.
+Copyright 2020 HeroUI LLC. Code released under the [MIT](https://github.com/heroui/agency/blob/master/LICENSE) license.
