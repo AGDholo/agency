@@ -54,17 +54,6 @@
             >
               {{ item }}
             </v-btn>
-
-            <v-btn
-              color="accent"
-              href="https://github.com/heroui/agency"
-              target="_black"
-            >
-              <v-icon left>
-                mdi-download
-              </v-icon>
-              Free Download
-            </v-btn>
           </v-col>
         </v-row>
       </v-container>
@@ -96,6 +85,9 @@
                   href="https://github.com/heroui/agency"
                   target="_black"
                 >
+                  <v-icon left>
+                    mdi-download
+                  </v-icon>
                   Free Download
                 </v-btn>
               </v-col>
