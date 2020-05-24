@@ -1,7 +1,7 @@
 <template>
   <v-app id="inspire" style="background: #f4f6f9">
     <v-navigation-drawer
-      v-if="!$vuetify.breakpoint.smAndUp"
+      v-if="!$vuetify.breakpoint.mdAndUp"
       v-model="drawer"
       :clipped="$vuetify.breakpoint.lgAndUp"
       app
@@ -33,7 +33,7 @@
           <v-col class="d-flex align-center">
             <v-app-bar-nav-icon
               @click.stop="drawer = !drawer"
-              v-if="!$vuetify.breakpoint.smAndUp"
+              v-if="!$vuetify.breakpoint.mdAndUp"
             />
             <v-toolbar-title
               style="cursor: pointer"
@@ -45,7 +45,7 @@
               Hero<span class="accent--text">UI</span>
             </v-toolbar-title>
           </v-col>
-          <v-col class="text-right" v-if="$vuetify.breakpoint.smAndUp">
+          <v-col class="text-right" v-if="$vuetify.breakpoint.mdAndUp">
             <v-btn
               text
               v-for="(item, i) in btnItems"
