@@ -54,6 +54,17 @@
             >
               {{ item }}
             </v-btn>
+
+            <v-btn
+              color="accent"
+              href="https://github.com/heroui/agency"
+              target="_black"
+            >
+              <v-icon left>
+                mdi-download
+              </v-icon>
+              Free Download
+            </v-btn>
           </v-col>
         </v-row>
       </v-container>
@@ -78,8 +89,14 @@
                   IT'S NICE TO MEET YOU
                 </h1>
 
-                <v-btn x-large color="accent" class="mt-5">
-                  Tell Me More
+                <v-btn
+                  x-large
+                  color="accent"
+                  class="mt-5"
+                  href="https://github.com/heroui/agency"
+                  target="_black"
+                >
+                  Free Download
                 </v-btn>
               </v-col>
             </v-row>
