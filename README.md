@@ -6,7 +6,7 @@
 
 ## Preview
 
-![Agency Preview](https://wx1.sbimg.cn/2020/05/17/agency-2.png)
+![Agency Preview](/preview.png)
 
 **[View Live Preview](https://agency.heroui.net/)**
 
