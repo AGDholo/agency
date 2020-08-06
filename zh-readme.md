@@ -1,6 +1,6 @@
-# [HeroUI - Agency](https://heroui.net/previews/agency.html)
+# HeroUI - Agency
 
-[Agency](https://heroui.net/previews/agency.html) 是一个单页的，机构投资组合主题，用 [Vuetify](https://vuetifyjs.com/) 打造，[HeroUI](https://heroui.net/) 进行开发。 这个主题有几个内容部分，一个响应式的投资组合网格，每个投资组合项目的对话窗口，以及一个联系表单。
+[Agency](https://agency.heroui.net/) 是一个单页的，机构投资组合主题，用 [Vuetify](https://vuetifyjs.com/) 打造，[HeroUI](https://heroui.net/) 进行开发。 这个主题有几个内容部分，一个响应式的投资组合网格，每个投资组合项目的对话窗口，以及一个联系表单。
 
 ## 预览
 
@@ -22,14 +22,14 @@
 
 ## 错误和问题
 
-有任何问题请 [打开一个 issue](https://github.com/heroui/agency/issues) 发送你的疑问。
+有任何问题请 [打开一个 issue](https://github.com/AGDholo/agency/issues) 发送你的疑问。
 
 ## 关于
 
 Agency 是一个开源的免费 Vuetify 主题和模板库。HeroUI 上的所有免费主题和模板都是在 MIT 许可证下发布的，这意味着你可以将其用于任何目的，甚至用于商业项目。
 
 - <https://heroui.net/>
-- <https://github.com/heroui>
+- <https://github.com/AGDholo>
 
 Agency 基于 [Vuetify](https://vuetifyjs.com/) 框架打造，由 [Pika](https://twitter.com/P1kaP1kaChu_) 开发。
 

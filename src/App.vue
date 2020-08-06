@@ -82,7 +82,7 @@
                   x-large
                   color="accent"
                   class="mt-5"
-                  href="https://github.com/heroui/agency"
+                  href="https://github.com/AGDholo/agency"
                   target="_black"
                 >
                   <v-icon left>
